@@ -3,8 +3,6 @@ import sqlite3
 import pandas as pd
 from datetime import datetime
 
-# --- KẾT NỐI DATABASE ---streamlit
-pandas
 conn = sqlite3.connect('inventory_v3.db', check_same_thread=False)
 c = conn.cursor()
 
