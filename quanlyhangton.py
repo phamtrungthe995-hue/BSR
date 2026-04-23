@@ -150,5 +150,4 @@ if check_password():
             "SELECT t.timestamp as 'Thời gian', t.p_id as 'Mã SP', p.name as 'Tên SP', t.type as 'Giao dịch', t.qty as 'Số lượng' FROM transactions t JOIN products p ON t.p_id = p.id ORDER BY t.t_id DESC",
             conn)
         st.dataframe(df_history, use_container_width=True, hide_index=True)
-        streamlit
-pandas
+
