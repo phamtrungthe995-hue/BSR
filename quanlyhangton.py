@@ -2,8 +2,6 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 from datetime import datetime
-streamlit
-pandas
 # --- CẤU HÌNH TRANG ---
 st.set_page_config(page_title="BSR shop - Quản lý kho", layout="wide", page_icon="🛍️")
 
